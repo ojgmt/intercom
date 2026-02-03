@@ -214,6 +214,7 @@ pear run . <store-name>
 3) Run `/transfer <to_address> <amount>` to send TNK (fee: 0.03 TNK).
 
 The address used for TNK fees is the peer’s **Trac address** (bech32m, `trac1...`) derived from its public key.
+You can read it directly in the startup banner as **Peer trac address (bech32m)** or via `/msb` (shows `peerMsbAddress`).
 
 ### Wallet Identity (keypair.json)
 Each peer’s wallet identity is stored in `stores/<peer-store-name>/db/keypair.json`.  
